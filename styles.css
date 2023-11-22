@@ -1,0 +1,13 @@
+/* Base padding & margin for all elements */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Body sizing */
+body{
+	font-family: 'Arial', sans-serif;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+}
