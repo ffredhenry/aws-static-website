@@ -8,35 +8,35 @@ document.addEventListener('DOMContentLoaded', function()
 			title: "SOC Analyst", 
 			company: "AT&T Cybersecurity", 
 			years: "03/2023 - Present", 
-			description: "triage babyyy"
+			description: "SOC Analyst"
 		},
 		{
 			id: 2,
 			title: "Software QA Analyst",
 			company: "Meta Platforms (Contractor through Wipro LTD)",
 			years: "10/2020 - 02/2023",
-			description: "foo bar"
+			description: "ProdOps (Product Operations)"
 		},
 		{
 			id: 3,
 			title: "Supply Chain Rotational Analyst",
 			company: "DistributionNOW",
 			years: "06/2019 - 04/2020",
-			description: "supply chain, digital transformation"
+			description: "Operational Excellence, Process Optimization"
 		},
 		{
 			id: 4,
 			title: "IT Support Specialist",
 			company: "Texas A&M College of Engineering",
 			years: "08/2018 - 05/2019",
-			description: "student IT helpdesk"
+			description: "Automation and technical support"
 		},
 		{
 			id: 5,
-			title: "Supply Chain & Procurement Intern (Digital transformation)",
+			title: "Supply Chain & Procurement Intern",
 			company: "A&C Plastics, Inc.",
 			years: "05/2018 - 08/2018",
-			description: "information technology & supply chain"
+			description: "Digital transformation, systems integration & process improvement"
 		}
 	];
 
@@ -79,11 +79,12 @@ document.addEventListener('DOMContentLoaded', function()
                 el.classList.remove('active'); // Remove active class
             });
 
-            if (!isContentShown) {
-                // If it was not shown before, display it
+            if (!isContentShown)
+			{
+                // Display toggle, shows if hidden and hides if showing
                 content.style.display = 'block';
                 entry.classList.add('active');
-            } // If it was shown, it will be hidden as part of the above loop
+            } 
         });
 
         timeline.appendChild(entry);
