@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', function()
 			title: "SOC Analyst", 
 			company: "AT&T Cybersecurity", 
 			years: "03/2023 - Present", 
-			description: "SOC Analyst"
+			description: "SOC Analyst Test"
 		},
 		{
 			id: 2,
-			title: "Software QA Analyst",
+			title: "Software QA Test Engineer",
 			company: "Meta Platforms (Contractor through Wipro LTD)",
 			years: "10/2020 - 02/2023",
 			description: "ProdOps (Product Operations)"
