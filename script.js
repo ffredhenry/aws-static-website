@@ -8,35 +8,35 @@ document.addEventListener('DOMContentLoaded', function()
 			title: "SOC Analyst", 
 			company: "AT&T Cybersecurity", 
 			years: "03/2023 - Present", 
-			description: "SOC Analyst Test"
+			description: "Tier 1 MSSP analyst for a variety of government and commercial customers."
 		},
 		{
 			id: 2,
 			title: "Software QA Test Engineer",
 			company: "Meta Platforms (Contractor through Wipro LTD)",
 			years: "10/2020 - 02/2023",
-			description: "ProdOps (Product Operations)"
+			description: "QA specialist for Meta's Facebook, Data Experiences, and Horizon product teams."
 		},
 		{
 			id: 3,
 			title: "Supply Chain Rotational Analyst",
 			company: "DistributionNOW",
 			years: "06/2019 - 04/2020",
-			description: "Operational Excellence, Process Optimization"
+			description: "Rotational program targeting operational excellence and process optimization in multiple geographic locations."
 		},
 		{
 			id: 4,
 			title: "IT Support Specialist",
 			company: "Texas A&M College of Engineering",
 			years: "08/2018 - 05/2019",
-			description: "Automation and technical support"
+			description: "Founding member of IT department in Zachry Engineering Building."
 		},
 		{
 			id: 5,
 			title: "Supply Chain & Procurement Intern",
 			company: "A&C Plastics, Inc.",
 			years: "05/2018 - 08/2018",
-			description: "Digital transformation, systems integration & process improvement"
+			description: "Implemented multiple digital transformation projects in and out of the warehouse."
 		}
 	];
 
